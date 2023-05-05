@@ -13,6 +13,7 @@
     "analyze": "npm run lint && tsc && vite build --mode=analyze && source-map-explorer 'dist/assets/*.js'"
   },
   "dependencies": {
+    "@uiw/react-github-corners": "^1.5.15",
     "antd": "^5.2.0",
     "antd-dayjs-vite-plugin": "^1.2.2",
     "dayjs": "^1.11.7",

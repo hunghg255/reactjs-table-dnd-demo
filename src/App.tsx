@@ -11,6 +11,7 @@ import {
   SortableHandle,
   SortEnd,
 } from 'reactjs-table-dnd';
+import GitHubCorners from '@uiw/react-github-corners';
 
 interface DataType {
   key: string;
@@ -148,6 +149,8 @@ const App = () => {
           },
         }}
       />
+
+      <GitHubCorners position='right' href='https://github.com/hunghg255/reactjs-table-dnd' />
     </main>
   );
 };
